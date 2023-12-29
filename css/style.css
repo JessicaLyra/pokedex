@@ -1,0 +1,75 @@
+body {
+    /* Fallback para navegadores que não suportam gradientes */
+   
+    /* Gradiente de cima para baixo */
+    background: linear-gradient(to bottom, #6ab7f1, #6bdb49);
+  min-height: 100vh;
+      /* Para centralizar o conteúdo na página */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+#pokedex{
+    max-width:900px;
+    display:block;
+    margin:0 auto;
+    position: relative;
+   
+}
+#pokemonInfo {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 45%;
+    right: 20%;
+    overflow-y: auto;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 13px;
+  
+}
+
+
+#pokemonNome{
+    position: absolute!important;
+    left: 15%!important;
+    bottom: 11%!important;
+    font-weight: bold!important;
+    font-family: arial!important;
+    font-size: 16px!important;
+    z-index: 9999!important;
+}
+
+#pokemon-image{
+    position: absolute;
+    top: 42%;
+    left: 16%;
+  
+}
+#pokemon-image img {
+    width: 150px;
+}
+/* p#identificacao-pokemon{
+    position: absolute;
+    top: 38%;
+    right: 38%;
+}
+p#altura-pokemon {
+    position: absolute;
+    right: 35%;
+    top: 40%;
+}
+
+p#largura-pokemon{
+    position: absolute;
+    top: 43%;
+    right: 34%;
+}
+
+
+p#habilidades-pokemon{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+}
