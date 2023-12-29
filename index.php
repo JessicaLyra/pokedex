@@ -13,7 +13,7 @@
   
   <label for="pokemonName">Enter Pokémon Name or ID:</label>
   <input type="text" id="pokemonName">
-  <button onclick="getPokemonInfo()">Get Info</button>
+  <button onclick="getPokemonInfo()">Procurar</button>
   <img src="img/pokedex.png" alt="" srcset="">
 
   <div id="pokemonNome"></div>
